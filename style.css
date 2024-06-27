@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Inter";
-    src: url(../fonts/Inter.ttf);
+    src: url(./fonts/Inter.ttf);
 }
 @font-face {
     font-family: "Galapagos";
-    src: url(../fonts/GALAPAGOS.ttf);
+    src: url(./fonts/GALAPAGOS.ttf);
 }
 
 :root {
@@ -44,7 +44,7 @@ button {
     height: 100vh;
     overflow: hidden;
 
-    background: url(../images/stars.svg), var(--clr-bg);
+    background: url(./images/stars.svg), var(--clr-bg);
 
     cursor: grab;
 }
@@ -94,17 +94,17 @@ button {
 
 
 .planet__mercury {
-    background-image: url(../images/1-Mercury.jpg);
+    background-image: url(./images/1-Mercury.jpg);
     animation-duration: 30s;
 }
 
 .planet__venus {
-    background-image: url(../images/2-Venus.jpg);
+    background-image: url(./images/2-Venus.jpg);
     animation-direction: reverse;
 }
 
 .planet__earth {
-    background-image: url(../images/3-Earth.jpg);
+    background-image: url(./images/3-Earth.jpg);
 }
 
 .planet__earth::before {
@@ -117,7 +117,7 @@ button {
     border-radius: 50%;
 
     background-size: auto 100%;
-    background-image: url(../images/cloud.jpg) ;
+    background-image: url(./images/cloud.jpg) ;
     opacity: .5;
     
     mix-blend-mode: screen;
@@ -129,11 +129,11 @@ button {
 }
 
 .planet__mars {
-        background-image: url(../images/4-Mars.jpg);
+        background-image: url(./images/4-Mars.jpg);
 }
 
 .planet__jupiter {
-        background-image: url(../images/5-Jupiter.jpg);
+        background-image: url(./images/5-Jupiter.jpg);
 
         box-shadow: -2rem 2rem 10rem var(--color),
         inset 3rem -3rem 5rem var(--color),
@@ -150,7 +150,7 @@ button {
     border-radius: 50%;
 
     background-size: auto 100%;
-    background-image: url(../images/5-Jupiter.jpg) ;
+    background-image: url(./images/5-Jupiter.jpg) ;
     
     mix-blend-mode: screen;
 
@@ -161,19 +161,19 @@ button {
 }
 
 .planet__saturn {
-        background-image: url(../images/6-Saturn.jpg);
+        background-image: url(./images/6-Saturn.jpg);
 }
 
 .planet__uranus {
-        background-image: url(../images/7-Uranus.jpg);
+        background-image: url(./images/7-Uranus.jpg);
 }
 
 .planet__neptune {
-        background-image: url(../images/8-Neptune.jpg);
+        background-image: url(./images/8-Neptune.jpg);
 }
 
 .planet__pluto {
-        background-image: url(../images/9-Pluto.jpg);
+        background-image: url(./images/9-Pluto.jpg);
 }
 
 
